@@ -10,7 +10,7 @@ int main() {
     cout << "Ввод: ";
     getline(cin, str);
 
-    bool result = checkstring(str);
+    bool result = isValidParentheses(str);
 
     if (result) {
         cout << "Строка допустима" << "\n";

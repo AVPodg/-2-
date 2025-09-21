@@ -1,0 +1,13 @@
+[
+    {
+        "name": "GCC",
+        "compilers": {
+            "C": "/usr/bin/gcc",
+            "CXX": "/usr/bin/g++"
+        },
+        "environmentVariables": {
+            "CC": "/usr/bin/gcc",
+            "CXX": "/usr/bin/g++"
+        }
+    }
+]

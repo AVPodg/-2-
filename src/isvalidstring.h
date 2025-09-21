@@ -3,6 +3,6 @@
 
 #include <string>
 
-bool checkstring(std::string s);
+bool isValidParentheses(std::string s);
 
 #endif
