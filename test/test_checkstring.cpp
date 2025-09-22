@@ -1,6 +1,6 @@
-#include "../src/isvalidstring.h"
 #include <gtest/gtest.h>
 #include <string>
+#include "isvalidstring.h"
 
 class IsValidStringTest : public ::testing::Test {
 protected:

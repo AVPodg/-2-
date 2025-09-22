@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/build/test_checkstring[1]_tests.cmake")
+  include("C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/build/test_checkstring[1]_tests.cmake")
+else()
+  add_test(test_checkstring_NOT_BUILT test_checkstring_NOT_BUILT)
+endif()
