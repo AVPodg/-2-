@@ -7,15 +7,15 @@ using namespace std;
 int main() {
     string str;
     
-    cout << "Ввод: ";
+    cout << "input:" << "\n";
     getline(cin, str);
 
     bool result = isValidParentheses(str);
 
     if (result) {
-        cout << "Строка допустима" << "\n";
+        cout << "String true" << "\n";
     } else {
-        cout << "Строка недопустима" << "\n";
+        cout << "String false" << "\n";
     }
 
     return 0;
