@@ -1,1 +1,1 @@
--isystem C:/Users/ganil/OneDrive/F0A5~1/C__~1/GOOGLE~1/GOOGLE~1/include -isystem C:/Users/ganil/OneDrive/F0A5~1/C__~1/GOOGLE~1/GOOGLE~1 -isystem C:/Users/ganil/OneDrive/F0A5~1/C__~1/GOOGLE~1/GOOGLE~2/include -isystem C:/Users/ganil/OneDrive/F0A5~1/C__~1/GOOGLE~1/GOOGLE~2
+-isystem C:/labsC++/googletest/googlemock/include -isystem C:/labsC++/googletest/googlemock -isystem C:/labsC++/googletest/googletest/include -isystem C:/labsC++/googletest/googletest

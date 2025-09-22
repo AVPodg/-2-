@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++"
+CMAKE_SOURCE_DIR = C:\labsC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build"
+CMAKE_BINARY_DIR = C:\labsC++\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -156,14 +156,14 @@ googletest/googletest/clean: googletest/googletest/CMakeFiles/gtest_main.dir/cle
 CMakeFiles/string_checker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_checker.dir\build.make CMakeFiles/string_checker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_checker.dir\build.make CMakeFiles/string_checker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=9,10,11 "Built target string_checker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=9,10,11 "Built target string_checker"
 .PHONY : CMakeFiles/string_checker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/string_checker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/string_checker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 0
 .PHONY : CMakeFiles/string_checker.dir/rule
 
 # Convenience name for target.
@@ -173,7 +173,7 @@ string_checker: CMakeFiles/string_checker.dir/rule
 # codegen rule for target.
 CMakeFiles/string_checker.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\string_checker.dir\build.make CMakeFiles/string_checker.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=9,10,11 "Finished codegen for target string_checker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=9,10,11 "Finished codegen for target string_checker"
 .PHONY : CMakeFiles/string_checker.dir/codegen
 
 # clean rule for target.
@@ -185,18 +185,18 @@ CMakeFiles/string_checker.dir/clean:
 # Target rules for target CMakeFiles/test_checkstring.dir
 
 # All Build rule for target.
-CMakeFiles/test_checkstring.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/test_checkstring.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/test_checkstring.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_checkstring.dir\build.make CMakeFiles/test_checkstring.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_checkstring.dir\build.make CMakeFiles/test_checkstring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=12,13,14 "Built target test_checkstring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=12,13,14 "Built target test_checkstring"
 .PHONY : CMakeFiles/test_checkstring.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_checkstring.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test_checkstring.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 0
 .PHONY : CMakeFiles/test_checkstring.dir/rule
 
 # Convenience name for target.
@@ -206,7 +206,7 @@ test_checkstring: CMakeFiles/test_checkstring.dir/rule
 # codegen rule for target.
 CMakeFiles/test_checkstring.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_checkstring.dir\build.make CMakeFiles/test_checkstring.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=12,13,14 "Finished codegen for target test_checkstring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=12,13,14 "Finished codegen for target test_checkstring"
 .PHONY : CMakeFiles/test_checkstring.dir/codegen
 
 # clean rule for target.
@@ -221,14 +221,14 @@ CMakeFiles/test_checkstring.dir/clean:
 googletest/googlemock/CMakeFiles/gmock.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock.dir\build.make googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock.dir\build.make googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=1,2 "Built target gmock"
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 googletest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 0
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -238,7 +238,7 @@ gmock: googletest/googlemock/CMakeFiles/gmock.dir/rule
 # codegen rule for target.
 googletest/googlemock/CMakeFiles/gmock.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock.dir\build.make googletest/googlemock/CMakeFiles/gmock.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=1,2 "Finished codegen for target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=1,2 "Finished codegen for target gmock"
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/codegen
 
 # clean rule for target.
@@ -254,14 +254,14 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMake
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main.dir\build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main.dir\build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=3,4 "Built target gmock_main"
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 googletest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 0
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -271,7 +271,7 @@ gmock_main: googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 # codegen rule for target.
 googletest/googlemock/CMakeFiles/gmock_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main.dir\build.make googletest/googlemock/CMakeFiles/gmock_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=3,4 "Finished codegen for target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=3,4 "Finished codegen for target gmock_main"
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/codegen
 
 # clean rule for target.
@@ -286,14 +286,14 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=5,6 "Built target gtest"
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 googletest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 0
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -303,7 +303,7 @@ gtest: googletest/googletest/CMakeFiles/gtest.dir/rule
 # codegen rule for target.
 googletest/googletest/CMakeFiles/gtest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make googletest/googletest/CMakeFiles/gtest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=5,6 "Finished codegen for target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=5,6 "Finished codegen for target gtest"
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/codegen
 
 # clean rule for target.
@@ -318,14 +318,14 @@ googletest/googletest/CMakeFiles/gtest.dir/clean:
 googletest/googletest/CMakeFiles/gtest_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=7,8 "Built target gtest_main"
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labsC++\build\CMakeFiles 0
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -335,7 +335,7 @@ gtest_main: googletest/googletest/CMakeFiles/gtest_main.dir/rule
 # codegen rule for target.
 googletest/googletest/CMakeFiles/gtest_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=7,8 "Finished codegen for target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=7,8 "Finished codegen for target gtest_main"
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/codegen
 
 # clean rule for target.

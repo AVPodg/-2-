@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/googletest
+# Install script for directory: C:/labsC++/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/build/googletest/googlemock/cmake_install.cmake")
+  include("C:/labsC++/build/googletest/googlemock/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/build/googletest/install_local_manifest.txt"
+  file(WRITE "C:/labsC++/build/googletest/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

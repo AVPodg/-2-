@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/src/isvalidstring.cpp" "CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj" "gcc" "CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj.d"
-  "C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/test/test_checkstring.cpp" "CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj" "gcc" "CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj.d"
+  "C:/labsC++/src/isvalidstring.cpp" "CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj" "gcc" "CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj.d"
+  "C:/labsC++/test/test_checkstring.cpp" "CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj" "gcc" "CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

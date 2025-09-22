@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++"
+CMAKE_SOURCE_DIR = C:\labsC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build"
+CMAKE_BINARY_DIR = C:\labsC++\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/string_checker.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/string_checker.dir/codegen:
 
 CMakeFiles/string_checker.dir/src/main.cpp.obj: CMakeFiles/string_checker.dir/flags.make
 CMakeFiles/string_checker.dir/src/main.cpp.obj: CMakeFiles/string_checker.dir/includes_CXX.rsp
-CMakeFiles/string_checker.dir/src/main.cpp.obj: C:/Users/ganil/OneDrive/Рабочий\ стол/Лабы\ C++/src/main.cpp
+CMakeFiles/string_checker.dir/src/main.cpp.obj: C:/labsC++/src/main.cpp
 CMakeFiles/string_checker.dir/src/main.cpp.obj: CMakeFiles/string_checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/string_checker.dir/src/main.cpp.obj"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/string_checker.dir/src/main.cpp.obj -MF CMakeFiles\string_checker.dir\src\main.cpp.obj.d -o CMakeFiles\string_checker.dir\src\main.cpp.obj -c "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/string_checker.dir/src/main.cpp.obj"
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/string_checker.dir/src/main.cpp.obj -MF CMakeFiles\string_checker.dir\src\main.cpp.obj.d -o CMakeFiles\string_checker.dir\src\main.cpp.obj -c C:\labsC++\src\main.cpp
 
 CMakeFiles/string_checker.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/string_checker.dir/src/main.cpp.i"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\main.cpp" > CMakeFiles\string_checker.dir\src\main.cpp.i
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\labsC++\src\main.cpp > CMakeFiles\string_checker.dir\src\main.cpp.i
 
 CMakeFiles/string_checker.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/string_checker.dir/src/main.cpp.s"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\main.cpp" -o CMakeFiles\string_checker.dir\src\main.cpp.s
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\labsC++\src\main.cpp -o CMakeFiles\string_checker.dir\src\main.cpp.s
 
 CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj: CMakeFiles/string_checker.dir/flags.make
 CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj: CMakeFiles/string_checker.dir/includes_CXX.rsp
-CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj: C:/Users/ganil/OneDrive/Рабочий\ стол/Лабы\ C++/src/isvalidstring.cpp
+CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj: C:/labsC++/src/isvalidstring.cpp
 CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj: CMakeFiles/string_checker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj -MF CMakeFiles\string_checker.dir\src\isvalidstring.cpp.obj.d -o CMakeFiles\string_checker.dir\src\isvalidstring.cpp.obj -c "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\isvalidstring.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj"
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/string_checker.dir/src/isvalidstring.cpp.obj -MF CMakeFiles\string_checker.dir\src\isvalidstring.cpp.obj.d -o CMakeFiles\string_checker.dir\src\isvalidstring.cpp.obj -c C:\labsC++\src\isvalidstring.cpp
 
 CMakeFiles/string_checker.dir/src/isvalidstring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/string_checker.dir/src/isvalidstring.cpp.i"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\isvalidstring.cpp" > CMakeFiles\string_checker.dir\src\isvalidstring.cpp.i
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\labsC++\src\isvalidstring.cpp > CMakeFiles\string_checker.dir\src\isvalidstring.cpp.i
 
 CMakeFiles/string_checker.dir/src/isvalidstring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/string_checker.dir/src/isvalidstring.cpp.s"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\isvalidstring.cpp" -o CMakeFiles\string_checker.dir\src\isvalidstring.cpp.s
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\labsC++\src\isvalidstring.cpp -o CMakeFiles\string_checker.dir\src\isvalidstring.cpp.s
 
 # Object files for target string_checker
 string_checker_OBJECTS = \
@@ -115,7 +115,7 @@ string_checker.exe: CMakeFiles/string_checker.dir/build.make
 string_checker.exe: CMakeFiles/string_checker.dir/linkLibs.rsp
 string_checker.exe: CMakeFiles/string_checker.dir/objects1.rsp
 string_checker.exe: CMakeFiles/string_checker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable string_checker.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable string_checker.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\string_checker.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/string_checker.dir/clean:
 .PHONY : CMakeFiles/string_checker.dir/clean
 
 CMakeFiles/string_checker.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles\string_checker.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\labsC++ C:\labsC++ C:\labsC++\build C:\labsC++\build C:\labsC++\build\CMakeFiles\string_checker.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/string_checker.dir/depend
 

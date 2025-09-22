@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++"
+CMAKE_SOURCE_DIR = C:\labsC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build"
+CMAKE_BINARY_DIR = C:\labsC++\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_checkstring.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/test_checkstring.dir/codegen:
 
 CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj: CMakeFiles/test_checkstring.dir/flags.make
 CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj: CMakeFiles/test_checkstring.dir/includes_CXX.rsp
-CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj: C:/Users/ganil/OneDrive/Рабочий\ стол/Лабы\ C++/test/test_checkstring.cpp
+CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj: C:/labsC++/test/test_checkstring.cpp
 CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj: CMakeFiles/test_checkstring.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj -MF CMakeFiles\test_checkstring.dir\test\test_checkstring.cpp.obj.d -o CMakeFiles\test_checkstring.dir\test\test_checkstring.cpp.obj -c "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\test\test_checkstring.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj"
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.obj -MF CMakeFiles\test_checkstring.dir\test\test_checkstring.cpp.obj.d -o CMakeFiles\test_checkstring.dir\test\test_checkstring.cpp.obj -c C:\labsC++\test\test_checkstring.cpp
 
 CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.i"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\test\test_checkstring.cpp" > CMakeFiles\test_checkstring.dir\test\test_checkstring.cpp.i
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\labsC++\test\test_checkstring.cpp > CMakeFiles\test_checkstring.dir\test\test_checkstring.cpp.i
 
 CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_checkstring.dir/test/test_checkstring.cpp.s"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\test\test_checkstring.cpp" -o CMakeFiles\test_checkstring.dir\test\test_checkstring.cpp.s
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\labsC++\test\test_checkstring.cpp -o CMakeFiles\test_checkstring.dir\test\test_checkstring.cpp.s
 
 CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj: CMakeFiles/test_checkstring.dir/flags.make
 CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj: CMakeFiles/test_checkstring.dir/includes_CXX.rsp
-CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj: C:/Users/ganil/OneDrive/Рабочий\ стол/Лабы\ C++/src/isvalidstring.cpp
+CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj: C:/labsC++/src/isvalidstring.cpp
 CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj: CMakeFiles/test_checkstring.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj -MF CMakeFiles\test_checkstring.dir\src\isvalidstring.cpp.obj.d -o CMakeFiles\test_checkstring.dir\src\isvalidstring.cpp.obj -c "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\isvalidstring.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj"
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.obj -MF CMakeFiles\test_checkstring.dir\src\isvalidstring.cpp.obj.d -o CMakeFiles\test_checkstring.dir\src\isvalidstring.cpp.obj -c C:\labsC++\src\isvalidstring.cpp
 
 CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.i"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\isvalidstring.cpp" > CMakeFiles\test_checkstring.dir\src\isvalidstring.cpp.i
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\labsC++\src\isvalidstring.cpp > CMakeFiles\test_checkstring.dir\src\isvalidstring.cpp.i
 
 CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_checkstring.dir/src/isvalidstring.cpp.s"
-	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\src\isvalidstring.cpp" -o CMakeFiles\test_checkstring.dir\src\isvalidstring.cpp.s
+	D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\labsC++\src\isvalidstring.cpp -o CMakeFiles\test_checkstring.dir\src\isvalidstring.cpp.s
 
 # Object files for target test_checkstring
 test_checkstring_OBJECTS = \
@@ -118,9 +118,9 @@ test_checkstring.exe: lib/libgtest.a
 test_checkstring.exe: CMakeFiles/test_checkstring.dir/linkLibs.rsp
 test_checkstring.exe: CMakeFiles/test_checkstring.dir/objects1.rsp
 test_checkstring.exe: CMakeFiles/test_checkstring.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_checkstring.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_checkstring.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_checkstring.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=test_checkstring -D "TEST_EXECUTABLE=C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/build/test_checkstring.exe" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/build" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=test_checkstring_TESTS -D "CTEST_FILE=C:/Users/ganil/OneDrive/Рабочий стол/Лабы C++/build/test_checkstring[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-4.1/Modules/GoogleTestAddTests.cmake"
+	"C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=test_checkstring -D TEST_EXECUTABLE=C:/labsC++/build/test_checkstring.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/labsC++/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=test_checkstring_TESTS -D CTEST_FILE=C:/labsC++/build/test_checkstring[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-4.1/Modules/GoogleTestAddTests.cmake"
 
 # Rule to build all files generated by this target.
 CMakeFiles/test_checkstring.dir/build: test_checkstring.exe
@@ -131,6 +131,6 @@ CMakeFiles/test_checkstring.dir/clean:
 .PHONY : CMakeFiles/test_checkstring.dir/clean
 
 CMakeFiles/test_checkstring.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles\test_checkstring.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\labsC++ C:\labsC++ C:\labsC++\build C:\labsC++\build C:\labsC++\build\CMakeFiles\test_checkstring.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_checkstring.dir/depend
 

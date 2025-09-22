@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++"
+CMAKE_SOURCE_DIR = C:\labsC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build"
+CMAKE_BINARY_DIR = C:\labsC++\build
 
 # Include any dependencies generated for this target.
 include googletest/googletest/CMakeFiles/gtest.dir/depend.make
@@ -73,18 +73,18 @@ googletest/googletest/CMakeFiles/gtest.dir/codegen:
 
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googletest/googletest/CMakeFiles/gtest.dir/flags.make
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googletest/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp
-googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: C:/Users/ganil/OneDrive/Рабочий\ стол/Лабы\ C++/googletest/googletest/src/gtest-all.cc
+googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: C:/labsC++/googletest/googletest/src/gtest-all.cc
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
-	cd /d C:\Users\ganil\OneDrive\F0A5~1\C__~1\build\GOOGLE~1\GOOGLE~2 && D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj -MF CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\googletest\googletest\src\gtest-all.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+	cd /d C:\labsC++\build\googletest\googletest && D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj -MF CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c C:\labsC++\googletest\googletest\src\gtest-all.cc
 
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /d C:\Users\ganil\OneDrive\F0A5~1\C__~1\build\GOOGLE~1\GOOGLE~2 && D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\googletest\googletest\src\gtest-all.cc" > CMakeFiles\gtest.dir\src\gtest-all.cc.i
+	cd /d C:\labsC++\build\googletest\googletest && D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\labsC++\googletest\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
 
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /d C:\Users\ganil\OneDrive\F0A5~1\C__~1\build\GOOGLE~1\GOOGLE~2 && D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\googletest\googletest\src\gtest-all.cc" -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
+	cd /d C:\labsC++\build\googletest\googletest && D:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\labsC++\googletest\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -96,19 +96,19 @@ gtest_EXTERNAL_OBJECTS =
 lib/libgtest.a: googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
 lib/libgtest.a: googletest/googletest/CMakeFiles/gtest.dir/build.make
 lib/libgtest.a: googletest/googletest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\lib\libgtest.a"
-	cd /d C:\Users\ganil\OneDrive\F0A5~1\C__~1\build\GOOGLE~1\GOOGLE~2 && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean_target.cmake
-	cd /d C:\Users\ganil\OneDrive\F0A5~1\C__~1\build\GOOGLE~1\GOOGLE~2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\labsC++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\lib\libgtest.a"
+	cd /d C:\labsC++\build\googletest\googletest && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean_target.cmake
+	cd /d C:\labsC++\build\googletest\googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 googletest/googletest/CMakeFiles/gtest.dir/build: lib/libgtest.a
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/build
 
 googletest/googletest/CMakeFiles/gtest.dir/clean:
-	cd /d C:\Users\ganil\OneDrive\F0A5~1\C__~1\build\GOOGLE~1\GOOGLE~2 && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean.cmake
+	cd /d C:\labsC++\build\googletest\googletest && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean.cmake
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/clean
 
 googletest/googletest/CMakeFiles/gtest.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\googletest\googletest" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\googletest\googletest" "C:\Users\ganil\OneDrive\Рабочий стол\Лабы C++\build\googletest\googletest\CMakeFiles\gtest.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\labsC++ C:\labsC++\googletest\googletest C:\labsC++\build C:\labsC++\build\googletest\googletest C:\labsC++\build\googletest\googletest\CMakeFiles\gtest.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/depend
 

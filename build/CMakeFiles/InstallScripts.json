@@ -1,10 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/ganil/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u041b\u0430\u0431\u044b C++/build/cmake_install.cmake",
-		"C:/Users/ganil/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u041b\u0430\u0431\u044b C++/build/googletest/cmake_install.cmake",
-		"C:/Users/ganil/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u041b\u0430\u0431\u044b C++/build/googletest/googlemock/cmake_install.cmake",
-		"C:/Users/ganil/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u041b\u0430\u0431\u044b C++/build/googletest/googletest/cmake_install.cmake"
+		"C:/labsC++/build/cmake_install.cmake",
+		"C:/labsC++/build/googletest/cmake_install.cmake",
+		"C:/labsC++/build/googletest/googlemock/cmake_install.cmake",
+		"C:/labsC++/build/googletest/googletest/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
