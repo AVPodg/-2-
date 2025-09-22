@@ -1,88 +1,22 @@
 {
-    "name": "C++ Development with Google Test - Unified Project",
+    "name": "GCC 14 C++ Environment",
     "build": {
-        "dockerfile": "Dockerfile",
-        "context": ".."
-    },
-    "features": {
-        "ghcr.io/devcontainers/features/git:1": {},
-        "ghcr.io/devcontainers/features/github-cli:1": {}
+      "dockerfile": "Dockerfile",
+      "context": ".."
     },
     "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-vscode.cpptools",
-                "ms-vscode.cpptools-extension-pack",
-                "ms-vscode.cmake-tools",
-                "ms-vscode.makefile-tools",
-                "google.googletest",
-                "ms-vscode.test-adapter-converter",
-                "hbenl.vscode-test-explorer",
-                "ms-vscode.hexeditor",
-                "ms-vscode.vscode-json",
-                "ms-vscode.remote-containers",
-                "ms-vscode.remote-ssh"
-            ],
-            "settings": {
-                "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-                "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
-                "C_Cpp.default.compilerPath": "/usr/bin/g++",
-                "C_Cpp.default.cStandard": "c17",
-                "C_Cpp.default.cppStandard": "c++17",
-                "C_Cpp.default.includePath": [
-                    "${workspaceFolder}/src",
-                    "${workspaceFolder}/test"
-                ],
-                "cmake.buildDirectory": "${workspaceFolder}/build",
-                "cmake.configureOnOpen": true,
-                "cmake.generator": "Unix Makefiles",
-                "cmake.configureArgs": [
-                    "-DCMAKE_BUILD_TYPE=Debug"
-                ],
-                "files.associations": {
-                    "*.h": "cpp",
-                    "*.hpp": "cpp",
-                    "*.cpp": "cpp",
-                    "*.cc": "cpp",
-                    "*.cxx": "cpp",
-                    "*.hxx": "cpp"
-                },
-                "terminal.integrated.defaultProfile.linux": "bash",
-                "googletest.discoverTestsOnSave": true,
-                "googletest.testExecutable": "${workspaceFolder}/build/test_checkstring",
-                "editor.formatOnSave": true,
-                "editor.tabSize": 4,
-                "editor.insertSpaces": true,
-                "editor.detectIndentation": false,
-                "files.encoding": "utf8",
-                "files.eol": "\n",
-                "search.exclude": {
-                    "**/build": true,
-                    "**/.git": true,
-                    "**/node_modules": true
-                },
-                "files.exclude": {
-                    "**/build": true,
-                    "**/.git": true
-                }
-            }
-        }
+      "vscode": {
+        "settings": {
+          "cmake.configureOnOpen": true,
+          "cmake.buildDirectory": "${workspaceFolder}/build",
+          "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+        },
+        "extensions": [
+          "ms-vscode.cpptools",
+          "ms-vscode.cmake-tools",
+          "llvm-vs-code-extensions.vscode-clangd"
+        ]
+      }
     },
-    "forwardPorts": [],
-    "portsAttributes": {},
-    "postCreateCommand": "mkdir -p build && cd build && cmake .. && make && echo 'Project built successfully!'",
-    "remoteUser": "vscode",
-    "workspaceFolder": "/workspace",
-    "mounts": [
-        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
-    ],
-    "runArgs": [
-        "--cap-add=SYS_PTRACE",
-        "--security-opt",
-        "seccomp=unconfined"
-    ],
-    "containerEnv": {
-        "CC": "gcc",
-        "CXX": "g++"
-    }
-}
+    "forwardPorts": []
+  }
